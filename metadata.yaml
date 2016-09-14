@@ -1,19 +1,9 @@
-name: charmy_mccharm_face
-summary: <Fill in summary here>
+name: charmy-mccharm-face
+summary: "A very basic charm that does very little"
+description: "A very basic charm that does very little"
 maintainer: Darren Hoyland <darren.hoyland@canonical.com>
-description: |
-  <Multi-line description here>
+series:
+   - xenial
 tags:
-  # Replace "misc" with one or more whitelisted tags from this list:
-  # https://jujucharms.com/docs/stable/authors-charm-metadata
   - misc
 subordinate: false
-provides:
-  provides-relation:
-    interface: interface-name
-requires:
-  requires-relation:
-    interface: interface-name
-peers:
-  peer-relation:
-    interface: interface-name
